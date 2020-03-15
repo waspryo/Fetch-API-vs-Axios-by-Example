@@ -42,3 +42,14 @@ const url = 'https://rickandmortyapi.com/api/character/1'
 //         console.log('error', err)
 //     })
 
+// const getCharacterLocationAsync = async url => {
+//     const res = await axios(url)
+
+//     console.log('response data:', res.data);
+    
+//     const res2 = await axios(res.data.location.url)
+//     console.log('response2 data:', res2.data);
+    
+// }
+
+// getCharacterLocationAsync(url)
