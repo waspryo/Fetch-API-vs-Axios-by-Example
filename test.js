@@ -20,9 +20,16 @@
 
 const url = 'https://rickandmortyapi.com/api/character/1'
 
-fetch(url)
-    .then((res) => {
-        return res.json();
-    }).then((data) => {
-        console.log('data', data);
-    })
+// fetch(url)
+//     .then((res) => {
+//         console.log('response ok', res.ok);
+//         if (!res.ok) {
+//                 throw 'Error';
+//         }
+//         return res.json();
+//     }).then((data) => {
+//         console.log('data', data);
+//     })
+//     .catch(err => {
+//         console.log('error', err)
+//     })
