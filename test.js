@@ -53,3 +53,16 @@ const url = 'https://rickandmortyapi.com/api/character/1'
 // }
 
 // getCharacterLocationAsync(url)
+
+const Promise1 = axios('https://rickandmortyapi.com/api/character/1')
+const Promise2 = axios('https://rickandmortyapi.com/api/character/2')
+const Promise3 = axios('https://rickandmortyapi.com/api/character/3')
+
+Promise.all([Promise1, Promise2, Promise3]).then(
+    val => {
+        console.log('values', val)
+    },
+    reason => {
+        console.log('relson', reason)
+    }
+)
