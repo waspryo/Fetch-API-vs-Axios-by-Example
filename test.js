@@ -33,3 +33,12 @@ const url = 'https://rickandmortyapi.com/api/character/1'
 //     .catch(err => {
 //         console.log('error', err)
 //     })
+
+// axios(url)
+//     .then(res => {
+//         console.log('response:', res.data)
+//     })
+//     .catch(err => {
+//         console.log('error', err)
+//     })
+
